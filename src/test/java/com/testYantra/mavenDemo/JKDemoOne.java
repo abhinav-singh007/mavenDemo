@@ -17,6 +17,7 @@ public class JKDemoOne
 		System.out.println(driver.getTitle());
 		driver.findElement(By.xpath("//a[@title='Get Selenium']")).click();
 		System.out.println(driver.getTitle());
+		System.out.println("Navigated to downloads page");
 		
 		driver.quit();
 		
